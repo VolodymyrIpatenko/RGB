@@ -23,7 +23,7 @@ export const Coaches = styled.ul`
   display: grid;
   @media screen and (min-width: 1199px) {
     display: grid;
-    gap: 20px;
+    // gap: 20px;
     text-align: center;
   }
 `;
@@ -43,26 +43,16 @@ export const CoachName = styled.h2`
 `;
 
 export const HomeSection = styled.section`
-  width: 854px;
-  height: 900px;
-  padding: 50px;
+  width: 1200px;
+  height: 800px;
+  padding: 15px;
   text-align: center;
   font-size: 20px;
   color: #fc060e;
-  background-image: url('https://volodymyripatenko.github.io/victoria-react/main.jpeg');
+  background-image: url('https://volodymyripatenko.github.io/victoria-react/rgb/rgb-main.jpeg');
 `;
-
 export const MobileHome = styled(HomeSection)`
   width: 400px;
   height: 400px;
-  background-image: url('https://volodymyripatenko.github.io/victoria-react/resized-main.jpeg');
-`;
-
-export const VideoStyle = styled.div`
-  width: 400px;
-  height: 400px;
-  @media screen and (min-width: 1199px) {
-    width: 700px;
-    height: 500px;
-  }
+  background-image: url('https://volodymyripatenko.github.io/victoria-react/rgb/mobile-logo.jpeg');
 `;

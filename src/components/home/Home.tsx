@@ -1,17 +1,17 @@
-import { Main, Title, VideoStyle } from './Home.styled';
+import { Main, Title } from './Home.styled';
 import CoachesList from './CoachesList';
-import React, { useContext } from 'react';
+import React from 'react';
 import HomeComponent from './HomeDesktopDescription';
 import MobileHomeComponent from './HomeMobileDescription';
 
 export const titleStyle = {
   title: {
+    display: 'flex',
+    justifyContent: 'center',
     fontWeight: 'bold',
-    textAlign: 'center',
-    borderRadius: '15px',
+    fontSize: '42px',
     padding: '5px',
-    backgroundColor: '#fc060e',
-    color: 'white',
+    color: 'yellow',
   },
 } as const;
 
