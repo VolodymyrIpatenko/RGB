@@ -5,6 +5,7 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   padding: 70px;
+  background-color: black;
 `;
 
 export const Title = styled.h1`
@@ -18,7 +19,7 @@ export const Description = styled.p`
   letter-spacing: 0.06em;
   font-style: italic;
   font-size: 25px;
-  color: #9bd8b3;
+  color: white;
 `;
 
 export const Authors = styled.ul`
@@ -40,7 +41,6 @@ export const CoachName = styled.h2`
   display: none;
   @media screen and (min-width: 1199px) {
     margin-top: 100px;
-    display: block;
   }
 `;
 

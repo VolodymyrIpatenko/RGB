@@ -9,11 +9,11 @@ export const Header = styled.header`
   gap: 20px;
   top: 0;
   padding: 30px;
-  background: linear-gradient(
-    90deg,
+  background: radial-gradient(
+    circle,
     rgba(2, 0, 36, 1) 0%,
-    rgba(130, 196, 52, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
+    rgba(200, 33, 8, 1) 0%,
+    rgba(52, 165, 165, 0.97) 100%
   );
   @media (max-width: 768px) {
     display: block;

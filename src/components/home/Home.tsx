@@ -1,5 +1,4 @@
 import { Main, Title } from './Home.styled';
-import CoachesList from './CoachesList';
 import React from 'react';
 import { Breakpoint } from 'react-socks';
 import HomeComponent from './HomeDesktopDescription';
@@ -19,29 +18,19 @@ export const titleStyle = {
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <Main>
-        <MobileHomeComponent />
-        <HomeComponent />
-        <section>
-          <Title>Автори курсу</Title>
-          <Breakpoint small down>
-            <span style={{ fontSize: '25px' }}>
-              Нажміть на фото для того аби дізнатися про автора
-            </span>
-          </Breakpoint>
-          <Breakpoint large up>
-            <span style={{ fontSize: '25px' }}>
-              Наведіть на фото для того аби дізнатися про автора
-            </span>
-          </Breakpoint>
-          <CoachesList />
-        </section>
-        <section>
-          <Gallery />
-        </section>
-      </Main>
-    </div>
+    <Main>
+      <MobileHomeComponent />
+      <HomeComponent />
+      <section style={{ color: 'white' }}>
+        <Title>Автори курсу</Title>
+        <h2>Вікторія Ткачук</h2>
+        <img src="https://volodymyripatenko.github.io/victoria-react/rgb/vika.jpeg" alt="" />
+        <ul></ul>
+      </section>
+      <section>
+        <Gallery />
+      </section>
+    </Main>
   );
 };
 
