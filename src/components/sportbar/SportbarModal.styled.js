@@ -21,7 +21,7 @@ const spin = keyframes`
 
 export const Caption = styled.span`
   margin: auto;
-  animation: ${zoom} 2s;
+  animation: ${zoom} 3s;
   text-align: center;
   font-size: 25px;
   color: #ccc;

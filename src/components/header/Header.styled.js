@@ -9,7 +9,12 @@ export const Header = styled.header`
   gap: 20px;
   top: 0;
   padding: 30px;
-  background-color: #fc060e;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(130, 196, 52, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
   @media (max-width: 768px) {
     display: block;
     height: 200px;

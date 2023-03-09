@@ -15,8 +15,6 @@ export default function ImageModal({ imageObj, handleClose }: ImageModalProps): 
     <Modal key={id}>
       <CloseButton onClick={handleClose}>&times;</CloseButton>
 
-      <ModalContent src={imageObj.image} alt={imageObj.description} />
-
       <Caption>{imageObj.description}</Caption>
     </Modal>
   );

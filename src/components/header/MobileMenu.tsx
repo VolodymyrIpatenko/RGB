@@ -1,7 +1,6 @@
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { NavigationLink, MobileMenu } from './Header.styled';
 import { useToggle } from '../hooks/customHooks';
-import { LogoImg } from './Header.styled';
 import { Breakpoint } from 'react-socks';
 import SocialComponent from './SocialsComponent';
 import navigation from '../common/Navigation';

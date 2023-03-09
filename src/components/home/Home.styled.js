@@ -17,13 +17,15 @@ export const Description = styled.p`
   line-height: 2;
   letter-spacing: 0.06em;
   font-style: italic;
+  font-size: 25px;
+  color: #9bd8b3;
 `;
 
-export const Coaches = styled.ul`
+export const Authors = styled.ul`
   display: grid;
   @media screen and (min-width: 1199px) {
     display: grid;
-    // gap: 20px;
+    justify-content: center;
     text-align: center;
   }
 `;

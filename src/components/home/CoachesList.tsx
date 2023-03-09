@@ -1,4 +1,4 @@
-import { Coaches, CoachDescription, CoachName } from './Home.styled';
+import { Authors, CoachDescription, CoachName } from './Home.styled';
 import React, { useState } from 'react';
 import { Breakpoint } from 'react-socks';
 import coachData from './coach';
@@ -10,7 +10,7 @@ const id = nanoid();
 const CoachesList: React.FC = () => {
   const [data, _] = useState<CoachData[]>(coachData);
   return (
-    <Coaches>
+    <Authors>
       {data.map(({ photo, alt, description, name }) => {
         return (
           <>
@@ -32,7 +32,7 @@ const CoachesList: React.FC = () => {
           </>
         );
       })}
-    </Coaches>
+    </Authors>
   );
 };
 

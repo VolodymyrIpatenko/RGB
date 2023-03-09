@@ -1,53 +1,26 @@
 const mainGallery = [
   {
-    photo:
-      'https://volodymyripatenko.github.io/victoria-react/another-bikes.jpeg',
+    photo: 'https://volodymyripatenko.github.io/victoria-react/rgb/first.jpeg',
     alt: 'Cooper arch',
   },
   {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/first-gym.jpeg',
+    photo: 'https://volodymyripatenko.github.io/victoria-react/rgb/second.jpeg',
     alt: 'Cooper arch',
   },
   {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/second-gym.jpeg',
+    photo: 'https://volodymyripatenko.github.io/victoria-react/rgb/third.jpeg',
     alt: 'Cooper arch',
   },
   {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/third-gym.jpeg',
+    photo: 'https://volodymyripatenko.github.io/victoria-react/rgb/fourth.jpeg',
     alt: 'Macrame with wooden  arch',
   },
   {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/fourth-gym.jpeg',
+    photo: 'https://volodymyripatenko.github.io/victoria-react/rgb/fifth.jpeg',
     alt: 'Open arms cooper arch',
   },
   {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/fifth-gym.jpeg',
-    alt: 'Cooper arch',
-  },
-  {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/trains.jpeg',
-    alt: 'Cooper arch',
-  },
-
-  {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/dumbell.jpeg',
-    alt: 'Cooper arch',
-  },
-  {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/bike.jpeg',
-    alt: 'Cooper arch',
-  },
-
-  {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/smith.jpeg',
-    alt: 'Cooper arch',
-  },
-  {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/train.jpeg',
-    alt: 'Cooper arch',
-  },
-  {
-    photo: 'https://volodymyripatenko.github.io/victoria-react/bench.jpeg',
+    photo: 'https://volodymyripatenko.github.io/victoria-react/seventh-new.jpeg',
     alt: 'Cooper arch',
   },
 ];

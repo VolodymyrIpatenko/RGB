@@ -8,5 +8,6 @@ export const Backdrop = styled.div`
   left: 0;
   width: 100vw;
   min-height: 100vh;
+  padding: 70px;
   background: #000000e1;
 `;

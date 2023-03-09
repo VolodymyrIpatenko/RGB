@@ -37,6 +37,7 @@
 .flip-card-back {
   height: auto;
   width: 320px;
-  background-color: #fc060e;
+  background: rgb(204, 208, 195);
+  color: white;
   transform: rotateY(180deg);
 }

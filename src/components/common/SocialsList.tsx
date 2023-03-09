@@ -10,13 +10,8 @@ interface Social {
 const socialsList: Social[] = [
   {
     id: 1,
-    path: 'https://www.instagram.com/sport_club_victoria/',
+    path: 'https://www.instagram.com/rgb_salon_school/',
     component: SlSocialInstagram,
-  },
-  {
-    id: 2,
-    path: 'https://www.facebook.com/VICTORIAclubsport/',
-    component: BsFacebook,
   },
 ];
 

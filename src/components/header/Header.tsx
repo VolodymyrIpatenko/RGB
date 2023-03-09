@@ -10,7 +10,7 @@ const HeaderComponent: React.FC = () => {
       <Header>
         <Wrap>
           <Link title="На головну" to="/">
-            <LogoImg src={process.env.PUBLIC_URL + '/logo.jpg'} alt="logo" />
+            <LogoImg src={process.env.PUBLIC_URL + '/logo.JPG'} alt="логотип" />
           </Link>
           <Nav>
             <NavList>
