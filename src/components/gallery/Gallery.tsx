@@ -11,7 +11,7 @@ const Gallery: React.FC = () => {
             fontSize: '43px',
             fontStyle: 'italic',
             color: 'white',
-            marginTop: '100px',
+            margin: '70px',
           }}
         >
           Роботи учениць
