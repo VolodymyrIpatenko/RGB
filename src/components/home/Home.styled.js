@@ -5,7 +5,11 @@ export const Main = styled.main`
   flex-direction: column;
   align-items: center;
   padding: 70px;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
   background-color: black;
+  color: white;
 `;
 
 export const Title = styled.h1`
