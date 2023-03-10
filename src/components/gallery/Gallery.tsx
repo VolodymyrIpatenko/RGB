@@ -14,7 +14,7 @@ const Gallery: React.FC = () => {
             margin: '70px',
           }}
         >
-          Роботи учениць
+          Роботи учнів
         </h2>
         <GalleryPhotosComponent />
       </section>
