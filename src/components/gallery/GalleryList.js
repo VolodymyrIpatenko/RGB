@@ -23,6 +23,22 @@ const mainGallery = [
     photo: 'https://volodymyripatenko.github.io/victoria-react/seventh-new.jpeg',
     alt: 'Cooper arch',
   },
+  {
+    photo: 'https://volodymyripatenko.github.io/victoria-react/resized-first.jpeg',
+    alt: 'Cooper arch',
+  },
+  {
+    photo: 'https://volodymyripatenko.github.io/victoria-react/resized-second.jpeg',
+    alt: 'Cooper arch',
+  },
+  {
+    photo: 'https://volodymyripatenko.github.io/victoria-react/resized-third.jpeg',
+    alt: 'Cooper arch',
+  },
+  {
+    photo: 'https://volodymyripatenko.github.io/victoria-react/resized-fourth.jpeg',
+    alt: 'Cooper arch',
+  },
 ];
 
 export default mainGallery;
